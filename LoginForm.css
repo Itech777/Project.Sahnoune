@@ -1,0 +1,46 @@
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#back {
+    background-color: rgb(23, 0, 0);
+}
+
+
+.form-row input:focus {
+    outline: none;
+}
+
+.form-row.error input {
+    border-color: var(--error-color);
+}
+
+.form-row.success input {
+    border-color: var(--success-color);
+}
+
+
+.form-row small {
+    color: var(--error-color);
+}
+
+.row{
+    background: rgba(128, 10, 10, 0.2);
+    border-radius: 30px;
+}
+
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+footer{
+    color: white;
+}
